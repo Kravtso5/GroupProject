@@ -3,7 +3,7 @@ from django.contrib import messages
 from django.views import View
 from DataLog.models import Staff, Admin, Professor, TA, Course, Lab, LabToCourse, ProfessorToCourse, TAToCourse, TAToLab
 
-
+# lala
 class Login(View):
     def get(self, request):
         request.session.flush()  # log out any logged user
